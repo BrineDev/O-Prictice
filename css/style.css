@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav{
+    display: inline-flex;
+    width: 96%;
+    padding: 0px 2%;
+}
+
+.nav ul li{
+    display: inline-flex;
+    list-style: none;
+    padding: 20px 20px;
+    font-weight: 500;
+    font-size: 18px;
+    transition: 600ms;
+}
+
+.nav ul li:hover{
+    color:deeppink;
+
+}
+
+.nav img{
+    width: 82px;
+    height: 88px;
+    padding-top: 10px;
+
+
+}
+
+.nav form{
+    padding-top: 30px;
+    padding-left: 60px;
+    color: grey;
+    position: relative;
+}
+
+.nav form i{
+    left: 30px;
+}
+
+
+.nav form input{ 
+    background-color: #c4c4c4;
+    width: 135px;
+    height: 25px;
+    border: none;
+    border-radius: 150px;
+}
+
+.nav a{
+    color:grey;
+    margin-top: 34px;
+    padding: 0px 12px;
+    text-decoration: none;
+    transition: 700ms;
+}
+
+.nav a:hover {
+    color: deeppink;
+}
+
+.headBanner{
+    background: url(https://o.kg/upload/iblock/6f0/1920%D1%85336_%D0%B1%D0%B5%D0%B7%D0%BB%D0%B8%D0%BC%D0%B8%D1%82.png) center / cover;
+    width: 100%;
+    height: 260px;
+}
+
+main{
+    background-color: rgb(214, 214, 214);
+}
+
+main h1{
+    color: #212121;
+    text-align: center;
+    margin: 0px;
+    padding: 40px 0px;
+    height: 21px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.populartarif{
+    width: 94%;
+    padding: 0px 3%;
+    padding-bottom: 20px;
+    display: inline-flex;
+}
+
+.populartarif div{
+    width: 350px;
+    height: 426px;
+    background-color: white;
+    margin: 0px 15px;
+    border-radius: 10px;
+}
+
+.populartarif div h3{
+    font-weight: 400;
+    padding: 30px;
+}
+
+.populartarif div h3 span{
+    color: deeppink;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.populartarif div ul .internet{
+    list-style-image: url(https://o.kg/local/templates/main/img/mobile/globe.svg);
+}
+
+
+.populartarif div ul .call{
+    list-style-image: url(https://o.kg/local/templates/main/img/mobile/outgoing.svg);
+}
+
+.populartarif div ul .anlimited{
+    list-style-image: url(https://o.kg/local/templates/main/img/mobile/ingoing.svg);
+}
+
+.populartarif div ul .safe{
+    list-style-image: url(https://o.kg/local/templates/main/img/mobile/safe_kids.svg);
+}
+
+.populartarif div ul .TV{
+    list-style-image:url(https://o.kg/local/templates/main/img/mobile/tv.svg) ;
+}
+
+.populartarif div ul .cinema{
+    list-style-image: url(https://o.kg/local/templates/main/img/mobile/okino.svg);
+}
+
+.populartarif div ul {
+    margin-left: 10px;
+}
+.populartarif div ul li{
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.populartarif div p span{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.populartarif div p{
+    margin: 40px 30px;
+}
+
+.populartarif div .tvProb{
+    margin: 28px 30px;
+}
+
+.populartarif div .anlimitedIcon{
+    display: inline-flex; 
+    margin: 0px 30px; 
+}
+
+.populartarif div .anlimitedIcon img{
+    margin: 0px 4px;    
+}
+
+.populartarif div .priceTarif{
+   margin: 10px 30px;
+}
+
+.populartarif div .tarifBtn{
+    width: 100px;
+    height: 32px;
+    margin: 0px 95px;
+    font-size:  15px;
+    border: 1px solid deeppink;
+    border-radius: 5px;
+    background-color: #fff;
+    color: deeppink;
+}
+
+.populartarif div .tarifBtn:hover{
+    color: white;
+    background-color: deeppink;
+}
+
+.populartarif div .tarifBtn1{
+    width: 100px;
+    height: 32px;
+    margin: 5px 95px;
+    font-size:  15px;
+    border: 1px solid deeppink;
+    border-radius: 5px;
+    background-color: #fff;
+    color: deeppink;
+}
+
+.populartarif div .tarifBtn1:hover{
+    color: white;
+    background-color: deeppink;
+}
+
+.populartarif div .tarifBtn2{
+    width: 100px;
+    height: 32px;
+    margin: 25px 95px;
+    font-size:  15px;
+    border: 1px solid deeppink;
+    border-radius: 5px;
+    background-color: #fff;
+    color: deeppink;
+}
+
+.populartarif div .tarifBtn2:hover{
+    color: white;
+    background-color: deeppink;
+}
+
+
+
+
+.phones{
+    width: 94%;
+    padding: 0px 3%;
+    display: inline-flex;
+}
+
+.phones div{
+    width: 370px;
+    height: 720px;
+    background-color: white;
+    margin: 20px;
+}
+
+.phones .phone1{
+    background:url(https://o.kg/upload/iblock/13c/POCO%20C3%20bb.png) center / cover;
+    width: 190px;
+    height: 400px;
+    margin: 40px 85px;
+}
+
+.phones .phone2{
+    background: url(https://o.kg/upload/iblock/452/Blackview%20BV5500%20Plus%20b.png) center / cover;
+    width: 190px;
+    height: 400px;
+    margin: 40px 85px;
+}
+
+
+.phones .phone3{
+    background: url(https://o.kg/upload/iblock/469/Techno%20spark%207%20b.png) center / cover;
+    width: 190px;
+    height: 400px;
+    margin: 40px 85px;
+}
+
+.phones div h1{
+    margin: 0px;
+}
+
+.phones div p{
+    margin: 20px 110px;
+}
+
+.phones div .phoneBtn{
+    width: 180px;
+    height: 45px;
+    margin: 10px 90px;
+    color: deeppink;
+    border: 1px solid deeppink;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 500ms;
+}
+
+.phones div .phoneBtn:hover{
+    background-color: deeppink;
+    color: white; 
+}
+
+main .wecan{
+    width: 94%;
+    padding: 0px 3%;
+    display: inline-flex;
+    margin: 40px 0px;
+}
+
+main .wecan div{
+    text-align: center;
+    margin: 0px auto;
+} 
+
+.forourAbonents{
+    width: 94%;
+    padding: 0px 3%;
+    background-color: white;
+}
+
+.forourAbonents .forbanner img{
+    width: 100%;
+    height: 425px;
+    border-radius: 20px;
+    margin-bottom: 60px;
+}
+
+footer .footerbanner{
+    background: url(https://oir.mobi/uploads/posts/2021-03/thumbs/1616582474_24-p-chernii-fon-gradient-29.jpg) center / cover ;
+ 
+    width: 100%;
+    height: 550px   ;
+
+    
+}
+
+footer .footerBtn{
+    width: 180px;
+    height: 40px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+    background: transparent;
+    margin: 40px 30px;
+    font-size: 16px;
+    transition: 500ms;
+}
+
+footer .footerBtn:hover{
+    background-color: white;
+    color: black;
+}
+
+.footerbanner h4{
+    color: white;
+    margin: 0px 40px;
+    padding: 0px;
+}
+
+.footerbanner .string {
+    color: white;
+    display: inline-flex;
+    margin: 40px 0px;
+    padding: 0px 40px;
+    line-height: 1.9;
+}
+
+.footerbanner div ul li{
+    list-style: none; 
+    display: block;
+    color: grey; 
+    transition: 500ms; 
+}
+
+.footerbanner div ul li:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+.footerbanner div ul{
+    margin: 0px 40px;
+    padding: 0px;
+}
+
+footer .foootbannner{
+    background: url(https://oir.mobi/uploads/posts/2021-03/thumbs/1616582474_24-p-chernii-fon-gradient-29.jpg) center / cover;
+    width: 100%;
+
+}
+
+footer .foootbannner div{
+    width: 90%;
+    padding: 5px 5%;
+    color: grey;
+
+}
+
+footer .foootbannner div p{
+    font-size: 16px;
+}
+
+footer .foootbannner div h5{
+    margin-bottom: 5px;
+}
